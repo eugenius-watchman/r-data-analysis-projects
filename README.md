@@ -1,9 +1,37 @@
-# R Programming Projects
+# R for Applied Statistics & Data Analysis
+This repository is a curated portfolio of projects demonstrating my applied skills in **statistical analysis, modeling, and data science** using R. The projects cover the full data workflow—from importing and cleaning data to advanced statistical modeling and visualization—reflecting methodologies commonly used in research and data-driven decision making.
 
-This repository contains various R programming projects that cover different aspects of data analysis, visualization, and statistical methods. Below is a brief description of each file included in the repository.
+## Core Statistical Competencies Demonstrated
+The projects in this repository provide hands-on experience in the following key areas:
+*   **Statistical Modeling & Regression Analysis:** Implementation of linear regression models to analyze relationships between variables (`Regression.R`).
+*   **Multivariate Analysis:** Application of **Principal Component Analysis (PCA)** for dimensionality reduction and data exploration (`PrincipalComponents.R`).
+*   **Hypothesis Testing & Inference:** Foundational work with descriptive statistics and data summarization that underpins formal hypothesis testing (`Describe.R`, `Summary.R`).
+*   **Experimental Design & Data Wrangling:** Techniques for selecting cases, handling factors, and structuring data to prepare for robust statistical testing (`SelectingCases.R`, `Factors.R`, `Tidyverse.R`).
+*   **Data Visualization for Communication:** Creating insightful visualizations like histograms, scatterplots, and bar charts to communicate data patterns and model results (`Histograms.R`, `Scatterplots.R`, `BarCharts.R`).
 
-## Project Files
+## Project Highlights & Methodologies
+| Project File | Key Statistical Methods Demonstrated | Relevance to Applied Fields |
+| :--- | :--- | :--- |
+| **`Regression.R`** | **Linear Regression, Model Fitting, Interpretation of Coefficients** | Econometrics, Biostatistics, Generalized Linear Models (GLMs) foundation |
+| **`PrincipalComponents.R`** | **Principal Component Analysis (PCA), Dimensionality Reduction** | Data compression, exploratory data analysis, feature engineering for ML |
+| **`HierarchicalClustering.R`** | **Unsupervised Learning, Cluster Analysis** | Machine Learning (Clustering), customer/patient segmentation |
+| **`Histograms.R` & `Scatterplots.R`** | **Data Distribution Analysis, Relationship Visualization** | Exploratory Data Analysis (EDA), a critical first step in any statistical modeling or hypothesis testing workflow |
+| **`Tidyverse.R`** | **Data Manipulation (`dplyr`), Tidying Data (`tidyr`)** | Reproducible research, data cleaning for Applied Statistics and Biostatistics |
 
+## Getting Started
+To explore these analyses:
+1.  Clone the repository: `git clone https://github.com/eugenius-watchman/r-data-analysis-projects.git`
+2.  Open the `.R` files in RStudio. Each script is self-contained and demonstrates a specific statistical concept or task.
+
+## Requirements
+*   R (>= 4.0.0)
+*   Core packages used: `tidyverse` (for data wrangling and grammar of graphics), `ggplot2` (for advanced plotting). Install with `install.packages(c("tidyverse", "ggplot2"))`.
+
+---
+
+*This portfolio showcases practical application of statistical theory. The code is structured for clarity and learning, mirroring professional data analysis workflows.*
+
+## List of project files
 - **Assignment_Datasets-20240721T210346Z-001.zip**: A zip file containing datasets for assignments.
 
 - **BarCharts.R**: Code for creating bar charts using R.
@@ -57,26 +85,3 @@ This repository contains various R programming projects that cover different asp
 - **Summary.R**: Functions to summarize datasets in R.
 
 - **Tidyverse.R**: Introduces the Tidyverse package and its usage in data analysis.
-
-## Getting Started
-
-To get started with these projects, clone the repository to your local machine and open the R files in your preferred R environment (e.g., RStudio).
-
-```bash
-
-
-git clone https://github.com/eugenius-watchman/r-data-analysis-projects.git
-
-Requirements
-Make sure you have R installed on your system. You can download it from CRAN. Additionally, some projects may require specific R packages, which can be installed using:
-
-R
-install.packages("package_name")
-
-License
-This project is licensed under the MIT License - see the LICENSE file for details.
-
-css
-Feel free to adjust the content according to your preferences and the specifics of your projects!
-
-
