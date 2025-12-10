@@ -31,9 +31,12 @@ To explore these analyses:
 
 *This portfolio showcases practical application of statistical theory. The code is structured for clarity and learning, mirroring professional data analysis workflows.*
 
-## List of project files
-- **Assignment_Datasets-20240721T210346Z-001.zip**: A zip file containing datasets for assignments.
+## Full Project Inventory
+This repository contains additional scripts and datasets that support the core competencies outlined above, including data import/export (`ImportingData.R`), foundational plotting (`Plot.R`), and workspace management.
 
+*For a detailed file list, please refer to the repository directory.*
+
+-----------------------------------------------------------------------
 - **BarCharts.R**: Code for creating bar charts using R.
 
 - **DataFormats.R**: Demonstrates various data formats and how to handle them in R.
